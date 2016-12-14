@@ -1,4 +1,4 @@
-package com.wenzi.love;
+package com.wenzi.loveexpression;
 
 import org.junit.Test;
 
