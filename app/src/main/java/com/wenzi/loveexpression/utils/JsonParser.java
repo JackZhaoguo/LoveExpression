@@ -23,7 +23,7 @@ public class JsonParser {
             parseResult = JSON.parseObject(jsonStr, tClass);
             long end = SystemClock.currentThreadTimeMillis();
 
-            LogUtil.e(LOG_TAG, "parse jsonStr.length=" + jsonStr.length() + ", UseTime =" + String.valueOf(end - start));
+            LogUtil.i(LOG_TAG, "parse jsonStr.length=" + jsonStr.length() + ", UseTime =" + String.valueOf(end - start));
         } catch (Exception e) {
             LogUtil.e(LOG_TAG, "Exception e=" + e.getMessage());
             return null;
